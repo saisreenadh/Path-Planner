@@ -1,0 +1,88 @@
+html, body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	background-color: #f4f4f9;
+	margin: 0;
+  }
+  
+  .my-navbar {
+	padding: 0px 130px;
+	height: 56px;
+	background-color: #0073e6;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-navbar .navbar-brand {
+	color: #fff;
+	font-weight: bold;
+  }
+  
+  .my-navbar .navbar-nav .nav-link {
+	color: #fff;
+	transition: color 0.3s ease;
+  }
+  
+  .my-navbar .navbar-nav .nav-link:hover {
+	color: #ffcc00;
+  }
+  
+  .map-container {
+	height: calc(100% - 70px);
+	background-color: #eef3fa;
+	border-top: 1px solid #ddd;
+  }
+  
+  .nav-mt {
+	margin-top: 70px;
+  }
+  
+  #mapid {
+	height: 100%;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hidden {
+	display: none;
+  }
+  
+  button {
+	background-color: #0073e6;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #005bb5;
+  }
+  
+  .flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	text-align: center;
+  }
+  
+  .jumbotron h2 {
+	color: #333;
+	font-size: 2em;
+  }
+  
+  input[type="search"] {
+	border: 1px solid #ddd;
+	padding: 6px 10px;
+	border-radius: 4px;
+	width: 100%;
+  }
+  
+  input[type="search"]:focus {
+	outline: none;
+	border-color: #0073e6;
+	box-shadow: 0 0 5px rgba(0, 115, 230, 0.3);
+  }
