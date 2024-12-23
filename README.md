@@ -36,14 +36,8 @@ cd Path-Planner
 npm install
 ```
 
-#### Create a .env file with the following:
+### Create a .env file with the following:
 #### SESSION_SECRET=your_session_secret
 #### MLAB_URL=your_mongodb_connection_string
 #### GOOGLE_CLIENT_ID=your_google_client_id
 #### GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-## Start the server
-```bash
-npm start
-```
-
